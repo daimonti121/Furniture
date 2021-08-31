@@ -623,7 +623,7 @@ body {
     flex-direction: column;
     max-width: 581px;
     position: relative;
-    transition: 1s all;
+    transition: .5s;
 }
 
 .goods__image {
