@@ -16,6 +16,7 @@
     --main-color: #1E2E36;
     --secondary-color: #44C697;
     --stock-color: #FF1B1B;
+    --hover-button-color: #11C161;
     --line-height: 125%;
     --main-font-size: 18px;
 }
@@ -244,7 +245,7 @@ body {
 }
 
 .header__connection-call:hover {
-    background-color: #11C161;
+    background-color: var(--hover-button-color);;
 }
 
 .main {
@@ -324,7 +325,7 @@ body {
 }
 
 .baner__button:hover {
-    background-color: #11C161;
+    background-color: var(--hover-button-color);;
 }
 
 .baner__number-slider {
@@ -738,7 +739,7 @@ body {
 }
 
 .button__link:hover {
-    background-color: #11C161;
+    background-color: var(--hover-button-color);;
 }
 
 .about {
@@ -917,6 +918,11 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+.feedback__input-submit:hover {
+    background-color: var(--hover-button-color);
+    border: none;
 }
 
 .feedback__info {
